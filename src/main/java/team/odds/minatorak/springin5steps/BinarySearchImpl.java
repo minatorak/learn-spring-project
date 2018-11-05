@@ -9,8 +9,8 @@ class BinarySearchImpl {
 
     public int binarySearch(int[] numbers,
                             int numberToSearchFor) {
-        BubbleSortAlgorithm bubbleSort = new BubbleSortAlgorithm();
-        int[] sortedNumbers = bubbleSort.sort(numbers);
+        int[] sortedNumbers = sortAlgorithm.sort(numbers);
+        System.out.println(sortAlgorithm);
         return 1;
     }
 }
