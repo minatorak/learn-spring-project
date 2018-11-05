@@ -1,6 +1,6 @@
 package team.odds.minatorak.springin5steps;
 
-class QuickSortAlgorithm {
+class QuickSortAlgorithm implements SortAlgorithm {
 
     public int[] sort(int[] numbers) {
         return numbers;
