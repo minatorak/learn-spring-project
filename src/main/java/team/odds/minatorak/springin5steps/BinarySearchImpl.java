@@ -1,6 +1,10 @@
 package team.odds.minatorak.springin5steps;
 
+import org.springframework.stereotype.Component;
+
+@Component
 class BinarySearchImpl {
+//    @Autowired
     private SortAlgorithm sortAlgorithm;
 
     public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
