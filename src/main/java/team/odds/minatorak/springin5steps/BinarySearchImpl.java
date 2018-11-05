@@ -1,12 +1,13 @@
 package team.odds.minatorak.springin5steps;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 class BinarySearchImpl {
-//    @Autowired
-    private SortAlgorithm sortAlgorithm;
+    private final SortAlgorithm sortAlgorithm;
 
+    @Autowired
     public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
         this.sortAlgorithm = sortAlgorithm;
     }
